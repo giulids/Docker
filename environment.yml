@@ -1,0 +1,43 @@
+name: chipseq-env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # --- Core tools ---
+  - macs2=2.2.7.1
+  - samtools=1.17
+  - bedtools
+  - bowtie
+  - bowtie2
+  - preseq
+  - deeptools
+  - multiqc
+  - samblaster
+  - wiggletools
+  - pysam
+  - bedops
+  - ucsc-bedgraphtobigwig
+  - fastqc
+  - picard
+  - gawk
+  - fastp
+  - seqtk
+  
+  # --- R base ---
+  - r-base=4.3
+  - r-data.table
+  - r-ggplot2
+  - r-RColorBrewer
+  - r-devtools
+  - r-spp
+
+  # --- Bioconductor packages ---
+  - bioconductor-chipseeker
+  - bioconductor-org.mm.eg.db
+  - bioconductor-org.hs.eg.db
+  - bioconductor-TxDb.Mmusculus.UCSC.mm9.knownGene
+  - bioconductor-TxDb.Mmusculus.UCSC.mm10.knownGene
+  - bioconductor-TxDb.Hsapiens.UCSC.hg19.knownGene
+  - bioconductor-TxDb.Hsapiens.UCSC.hg38.knownGene 
