@@ -1,3 +1,0 @@
-python
-ucsc-liftover
-bedtools
