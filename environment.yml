@@ -1,0 +1,55 @@
+name: rnaseq-env 
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  # --- Core tools ---
+  - samtools=1.17
+  - bedtools
+  - star=2.7.11b
+  - preseq
+  - deeptools
+  - multiqc
+  - pysam
+  - bedops
+  - fastqc
+  - picard
+  - fastp 
+  - subread
+  - rseqc
+  - gffutils
+  - samblaster
+  - salmon
+
+  # --- R base ---
+  - r-base=4.3
+  - r-data.table
+  - r-ggplot2
+  - r-RColorBrewer
+  - r-devtools
+  - r-spp
+  - r-tidyverse
+  - r-tibble
+  - r-openxlsx
+  - r-msigdbr
+  - r-ggforce
+  - r-scales
+  - r-viridis
+  - r-ggrepel
+
+  # --- Bioconductor packages ---
+  - bioconductor-DESeq2
+  - bioconductor-org.mm.eg.db
+  - bioconductor-org.hs.eg.db
+  - bioconductor-clusterProfiler
+  - bioconductor-pcaExplorer
+  - bioconductor-ReactomePA
+  - bioconductor-IHW
+  - bioconductor-apeglm
+  - bioconductor-tximport
+  - bioconductor-rhdf5
+  - bioconductor-GenomicFeatures
+  - bioconductor-biomart
+  - bioconductor-dupRadar
